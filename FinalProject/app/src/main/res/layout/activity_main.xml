@@ -31,6 +31,7 @@
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp"
+            android:onClick="onClickMoves"
             >
 
             <RelativeLayout
@@ -42,7 +43,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="genjiMoves"
                     android:src="@drawable/genji"
                     tools:ignore="DuplicateSpeakableTextCheck" />
 
@@ -68,7 +68,8 @@
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:onClick="onClickMoves">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -79,7 +80,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="meiMoves"
                     android:src="@drawable/mei" />
 
                 <TextView
@@ -104,7 +104,8 @@
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:onClick="onClickMoves">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -115,7 +116,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="moiraMoves"
                     android:src="@drawable/moira" />
 
                 <TextView
@@ -140,7 +140,8 @@
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:onClick="onClickMoves">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -151,7 +152,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="cassidyMoves"
                     android:src="@drawable/cassidy" />
 
                 <TextView
@@ -175,7 +175,8 @@
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:onClick="onClickMoves">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -186,7 +187,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="roadhogMoves"
                     android:src="@drawable/roadhog" />
 
                 <TextView
@@ -210,7 +210,8 @@
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:onClick="onClickMoves">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -221,7 +222,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="reaperMoves"
                     android:src="@drawable/reaper" />
 
                 <TextView
@@ -245,7 +245,8 @@
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:onClick="onClickMoves">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -256,7 +257,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="mercyMoves"
                     android:src="@drawable/mercy" />
 
                 <TextView
@@ -280,7 +280,8 @@
             android:layout_columnWeight="1"
             android:layout_margin="10dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="0dp">
+            app:cardElevation="0dp"
+            android:onClick="onClickMoves">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -291,7 +292,6 @@
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:contentDescription="@string/app_name"
-                    android:onClick="widowMoves"
                     android:src="@drawable/widow" />
 
                 <TextView
