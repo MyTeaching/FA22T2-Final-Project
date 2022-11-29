@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
+    private TextView textView_counter;
+    private int totalWin, totalLose;
+
     private String heroChosen;
     private int heroValue, heroHP, heroMP;
 
@@ -35,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        textView_counter = (TextView) findViewById(R.id.textView_counter);
 
         Resources res = getResources();
         hero_name = res.getStringArray(R.array.hero_name);

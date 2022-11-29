@@ -20,10 +20,10 @@ public class WinnerActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
     private NotificationManager notificationManager;
-    private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel"; //API 26 and above each notification needs a channel id
-    private static final String PRIMARY_CHANNEL_NAME = "my primary notification channel";//API 26 and above each notification needs a channel name
-    private static final int IMPORTANCE_LEVEL = NotificationManager.IMPORTANCE_DEFAULT; //priority level
-    private static final int NOTIFICATION_ID_0 = 0; //unique allows us to update notification
+    private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
+    private static final String PRIMARY_CHANNEL_NAME = "my primary notification channel";
+    private static final int IMPORTANCE_LEVEL = NotificationManager.IMPORTANCE_DEFAULT;
+    private static final int NOTIFICATION_ID_0 = 0;
 
     private String heroChosen;
     private int heroValue, heroHP, heroMP;
