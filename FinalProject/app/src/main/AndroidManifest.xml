@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".BattleActivity"/>
         <activity android:name=".MovesActivity"/>
+        <activity android:name=".WinnerActivity"/>
+        <activity android:name=".LoserActivity"/>
     </application>
 
 </manifest>

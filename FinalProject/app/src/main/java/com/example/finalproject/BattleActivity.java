@@ -80,7 +80,16 @@ public class BattleActivity extends AppCompatActivity {
 
     // If user chickens away, it should add a Loss to their record
     public void onClickRun(View view){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoserActivity.class);
+        intent.putExtra("HeroChosen", heroChosen);
+        intent.putExtra("HeroValue", heroValue);
+        intent.putExtra("HeroHP", heroHP);
+        intent.putExtra("HeroMP", heroMP);
+
+        intent.putExtra("EnemyChosen", enemyChosen);
+        intent.putExtra("EnemyValue", enemyValue);
+        intent.putExtra("EnemyHP", enemyHP);
+        intent.putExtra("EnemyMP", enemyMP);
         startActivity(intent);
     }
 }

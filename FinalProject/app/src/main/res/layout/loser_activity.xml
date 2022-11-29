@@ -7,34 +7,30 @@
     android:background="#F80808">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_you_lost"
         android:layout_width="395dp"
         android:layout_height="296dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315"
+        app:layout_constraintTop_toBottomOf="@+id/textView_you_lost"
         app:srcCompat="@drawable/lisa" />
 
     <TextView
-        android:id="@+id/whoLost"
+        android:id="@+id/textView_who_lost"
         android:layout_width="343dp"
         android:layout_height="66dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="Who Lost/ By How Much"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_loser" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_you_lost"
         android:layout_width="169dp"
         android:layout_height="54dp"
         android:gravity="center"
@@ -42,8 +38,27 @@
         android:textColor="#000000"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_winner_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickReturn"
+        android:text="Return Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_who_lost" />
+
+    <ImageView
+        android:id="@+id/imageView_loser"
+        android:layout_width="352dp"
+        android:layout_height="229dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_you_lost"
+        app:srcCompat="@drawable/genji" />
 </android.support.constraint.ConstraintLayout>

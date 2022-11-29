@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_battle.xml" value="0.1796875" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/loser_activity.xml" value="0.1796875" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/moves.xml" value="0.22" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/winner_activity.xml" value="0.1796875" />
       </map>
     </option>
   </component>

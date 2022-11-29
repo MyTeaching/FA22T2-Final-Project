@@ -183,18 +183,32 @@ public class MovesActivity extends AppCompatActivity {
     // NEED TO WORK!!
     // goes to the winners activity screen
     public void winnerFound() {
-//        Intent intent = new Intent(this, WinnerActivity.class);
-//        startActivity(intent);
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, WinnerActivity.class);
+        intent.putExtra("HeroChosen", heroChosen);
+        intent.putExtra("HeroValue", heroValue);
+        intent.putExtra("HeroHP", heroHP);
+        intent.putExtra("HeroMP", heroMP);
+
+        intent.putExtra("EnemyChosen", enemyChosen);
+        intent.putExtra("EnemyValue", enemyValue);
+        intent.putExtra("EnemyHP", enemyHP);
+        intent.putExtra("EnemyMP", enemyMP);
         startActivity(intent);
     }
 
     // NEED TO WORK!!
     // goes to the losers activity screen
     public void loserFound() {
-//        Intent intent = new Intent(this, LoserActivity.class);
-//        startActivity(intent);
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoserActivity.class);
+        intent.putExtra("HeroChosen", heroChosen);
+        intent.putExtra("HeroValue", heroValue);
+        intent.putExtra("HeroHP", heroHP);
+        intent.putExtra("HeroMP", heroMP);
+
+        intent.putExtra("EnemyChosen", enemyChosen);
+        intent.putExtra("EnemyValue", enemyValue);
+        intent.putExtra("EnemyHP", enemyHP);
+        intent.putExtra("EnemyMP", enemyMP);
         startActivity(intent);
     }
 }
