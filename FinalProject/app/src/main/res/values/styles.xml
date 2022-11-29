@@ -8,7 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
+    <style name="main_CardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:onClick">onClickMoves</item>
+    </style>
+    
+    <style name="main_ImageView">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+    
+    <style name="main_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
     <style name="MyButton" parent="Widget.AppCompat.Button">
 

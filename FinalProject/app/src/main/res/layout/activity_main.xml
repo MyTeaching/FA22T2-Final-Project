@@ -32,13 +32,8 @@
 
         <android.support.v7.widget.CardView
             android:id="@+id/genji"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
+            style="@style/main_CardView"
             android:background="#2AD131"
-            android:onClick="onClickMoves"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -48,22 +43,14 @@
                 android:background="#41EF48">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/genji"
                     tools:ignore="DuplicateSpeakableTextCheck" />
 
                 <TextView
                     android:id="@+id/genji_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/genji"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textStyle="bold" />
+                    style="@style/main_TextView"
+                    android:text="@string/genji"/>
 
             </RelativeLayout>
 
@@ -71,12 +58,7 @@
 
         <android.support.v7.widget.CardView
             android:id="@+id/mei"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:onClick="onClickMoves"
+            style="@style/main_CardView"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -86,21 +68,13 @@
                 android:background="#5AB9E4">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/mei" />
 
                 <TextView
                     android:id="@+id/mei_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/mei"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textStyle="bold" />
+                    style="@style/main_TextView"
+                    android:text="@string/mei" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
@@ -108,12 +82,7 @@
 
         <android.support.v7.widget.CardView
             android:id="@+id/moira"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:onClick="onClickMoves"
+            style="@style/main_CardView"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -123,21 +92,13 @@
                 android:background="#B53BCA">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/moira" />
 
                 <TextView
                     android:id="@+id/moira_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/moira"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textStyle="bold" />
+                    style="@style/main_TextView"
+                    android:text="@string/moira" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
@@ -145,12 +106,7 @@
 
         <android.support.v7.widget.CardView
             android:id="@+id/cassidy"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:onClick="onClickMoves"
+            style="@style/main_CardView"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -160,33 +116,20 @@
                 android:background="#93605C">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/cassidy" />
 
                 <TextView
                     android:id="@+id/cassidy_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/cassidy"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textStyle="bold" />
+                    style="@style/main_TextView"
+                    android:text="@string/cassidy" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/roadhog"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:onClick="onClickMoves"
+            style="@style/main_CardView"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -195,34 +138,20 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:background="#E14B40"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/roadhog" />
 
                 <TextView
                     android:id="@+id/roadhog_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/roadhog"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textStyle="bold" />
+                    style="@style/main_TextView"
+                    android:text="@string/roadhog" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/reaper"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:onClick="onClickMoves"
+            style="@style/main_CardView"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -232,34 +161,21 @@
                 android:background="#322A2A">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/reaper" />
 
                 <TextView
                     android:id="@+id/reaper_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
+                    style="@style/main_TextView"
                     android:text="@string/reaper"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="#F8F5F5"
-                    android:textStyle="bold" />
+                    android:textColor="#F8F5F5" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/mercy"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:onClick="onClickMoves"
+            style="@style/main_CardView"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -269,33 +185,20 @@
                 android:background="#FFEB3B">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/mercy" />
 
                 <TextView
                     android:id="@+id/mercy_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/mercy"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textStyle="bold" />
+                    style="@style/main_TextView"
+                    android:text="@string/mercy" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
             android:id="@+id/widow"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_margin="10dp"
-            android:onClick="onClickMoves"
+            style="@style/main_CardView"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
@@ -305,22 +208,14 @@
                 android:background="#654995">
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="150dp"
-                    android:layout_centerInParent="true"
-                    android:contentDescription="@string/app_name"
+                    style="@style/main_ImageView"
                     android:src="@drawable/widow" />
 
                 <TextView
                     android:id="@+id/widow_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
+                    style="@style/main_TextView"
                     android:text="@string/widow"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold" />
+                    android:textColor="#FFFFFF" />
 
             </RelativeLayout>
 
