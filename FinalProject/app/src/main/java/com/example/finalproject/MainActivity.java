@@ -1,7 +1,12 @@
 package com.example.finalproject;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.os.Build;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -24,6 +29,12 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
+
+    private NotificationManager notificationManager;
+    private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel"; //API 26 and above each notification needs a channel id
+    private static final String PRIMARY_CHANNEL_NAME = "my primary notification channel";//API 26 and above each notification needs a channel name
+    private static final int IMPORTANCE_LEVEL = NotificationManager.IMPORTANCE_DEFAULT; //priority level
+    private static final int NOTIFICATION_ID_0 = 0; //unique allows us to update notification
 
     private String heroChosen;
     private int heroValue, heroHP, heroMP;
@@ -159,5 +170,42 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("EnemyMP", enemyMP);
 
         startActivity(intent);
+    }
+
+    protected void sendNotification() {
+        Log.d(TAG, "inside sendNotification method");
+        NotificationCompat.Builder notificationBuilder;
+        Intent intent = new Intent(this, MainActivity.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, NOTIFICATION_ID_0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        if(Build.VERSION.SDK_INT >= 26){//API 26 or greater needs channel
+            Log.d(TAG, "inside API >=26 block of code");
+            NotificationChannel notificationChannel = new NotificationChannel(PRIMARY_CHANNEL_ID, PRIMARY_CHANNEL_NAME, IMPORTANCE_LEVEL);
+            notificationChannel.setDescription("Reminders");
+
+            notificationManager.createNotificationChannel(notificationChannel);
+
+            notificationBuilder = new NotificationCompat.Builder(this, PRIMARY_CHANNEL_ID)
+                    .setContentTitle("MOVE AROUND Notification")
+                    .setContentText("Get moving!")
+                    .setSmallIcon(R.drawable.ic_action_victory);
+
+
+        }
+        else{//API less than 26 set priority on notification... not using a channel
+
+            notificationBuilder =
+                    new NotificationCompat.Builder(this)
+                            .setPriority(IMPORTANCE_LEVEL)
+                            .setContentTitle("MOVE AROUND Notification").setContentText("Get moving!")
+                            .setSmallIcon(R.drawable.ic_action_victory);
+
+
+        }
+
+        notificationBuilder.setContentIntent(pendingIntent);
+        notificationManager.notify(NOTIFICATION_ID_0, notificationBuilder.build());
+
+        //disable the create new notification button
     }
 }
