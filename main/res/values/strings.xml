@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">android_group_project</string>
+    <string name="usersHero">YOUR HERO</string>
+    <string name="move1">button</string>
+    <string name="move2">button</string>
+    <string name="move3">button</string>
+    <string name="genjiHero">GENJI</string>
+    <string name="genji">Genji</string>
+    <string name="mei">Mei</string>
+    <string name="moira">Moira</string>
+    <string name="cassidy">Cassidy</string>
+    <string name="roadhog">Roadhog</string>
+    <string name="reaper">Reaper</string>
+    <string name="mercy">Mercy</string>
+    <string name="widow">Widow</string>
+</resources>
