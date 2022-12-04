@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hero_HP">
+        <item>500</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>600</item>
+        <item>550</item>
+        <item>500</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="hero_MP">
+        <item>350</item>
+        <item>500</item>
+        <item>600</item>
+        <item>550</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="hero_move1">
+        <item>SHURIKEN</item>
+        <item>ENDOTHERMIC BLASTER</item>
+        <item>SOUL SUCK</item>
+        <item>PEACEKEEPER</item>
+        <item>SCRAP GUN</item>
+        <item>HELLFIRE SHOTGUNS</item>
+        <item>CADUCEUS BLASTER</item>
+        <item>WIDOWS KISS</item>
+    </string-array>
+    <string-array name="hero_move1_dmg">
+        <item>75</item>
+        <item>100</item>
+        <item>35</item>
+        <item>50</item>
+        <item>20</item>
+        <item>70</item>
+        <item>30</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="hero_move2">
+        <item>DEFLECT ONCOMING PROJECTILES BACK</item>
+        <item>ICE WALL OFF MAP</item>
+        <item>CAST BIOTIC ORB</item>
+        <item>MAGNETIC GRENADE</item>
+        <item>CHAIN HOOK</item>
+        <item>THE REAPING</item>
+        <item>RESURRECT</item>
+        <item>VENOM MINE</item>
+    </string-array>
+    <string-array name="hero_move2_dmg">
+        <item>10</item>
+        <item>30</item>
+        <item>50</item>
+        <item>35</item>
+        <item>50</item>
+        <item>75</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="hero_move3">
+        <item>DRAGONBLADE</item>
+        <item>CAST A BLIZZARD TO FREEZE</item>
+        <item>COALESCENCE</item>
+        <item>DEADEYE, ITS HIGH NOON</item>
+        <item>WHOLE HOG</item>
+        <item>DEATH BLOSSOM</item>
+        <item>VALKYRIE</item>
+        <item>INFRA SIGHT</item>
+    </string-array>
+    <string-array name="hero_move3_dmg">
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>130</item>
+        <item>120</item>
+        <item>140</item>
+        <item>170</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="hero_name">
+        <item>genji</item>
+        <item>mei</item>
+        <item>moira</item>
+        <item>cassidy</item>
+        <item>roadhog</item>
+        <item>reaper</item>
+        <item>mercy</item>
+        <item>widow</item>
+    </string-array>
+    <string-array name="trophies">
+        <item>Select Trophy</item>
+        <item>Thumbs-up</item>
+        <item>Cup</item>
+        <item>Medal</item>
+
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#58A1C2</color>
+    <color name="colorPrimary">#B3F765</color>
+    <color name="colorPrimaryDark">#2BAD31</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Final Project</string>
+    <string name="cassidy">Cassidy</string>
+    <string name="genji">Genji</string>
+    <string name="genjiHero">GENJI</string>
+    <string name="mei">Mei</string>
+    <string name="mercy">Mercy</string>
+    <string name="moira">Moira</string>
+    <string name="move1">button</string>
+    <string name="move2">button</string>
+    <string name="move3">button</string>
+    <string name="reaper">Reaper</string>
+    <string name="roadhog">Roadhog</string>
+    <string name="usersHero">YOUR HERO</string>
+    <string name="widow">Widow</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyButton" parent="Widget.AppCompat.Button">
+
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Theme.FinalProject" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        
+    </style>
+    <style name="main_CardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:onClick">onClickMoves</item>
+    </style>
+    <style name="main_ImageView">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+    <style name="main_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

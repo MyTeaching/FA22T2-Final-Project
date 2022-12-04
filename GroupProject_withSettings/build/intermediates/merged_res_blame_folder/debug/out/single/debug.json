@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.finalproject.app-merged_res-30:/layout_winner_activity.xml.flat",
+        "source": "com.example.finalproject.app-main-32:/layout/winner_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-pngs-25:\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_mei.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\mei.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\layout_moves.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\layout\\moves.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-pngs-25:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-pngs-25:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_reaper.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\reaper.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_thumbs_up.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\thumbs_up.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_roadhog.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\roadhog.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-pngs-25:\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-pngs-25:\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_cup.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\cup.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_mercy.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\mercy.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_ic_action_victory.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\ic_action_victory.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_vss.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\vss.png"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_lisa.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\lisa.png"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\layout_loser_activity.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\layout\\loser_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_medal.jpeg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\medal.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-pngs-25:\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\layout_activity_battle.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\layout\\activity_battle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_cassidy.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\cassidy.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_widow.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\widow.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_moira.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\moira.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_genji.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\genji.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable_placeholder.jpg.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\drawable\\placeholder.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\layout_winner_activity.xml.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-main-32:\\layout\\winner_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-merged_res-30:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Melissa Vasquez\\.gradle\\daemon\\7.3.3\\com.example.finalproject.app-pngs-25:\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    }
+]
