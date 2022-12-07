@@ -230,9 +230,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.logOff:
                 myAuth.signOut();
                 Intent logOff = new Intent(this, LogInUser.class);
-                logOff.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                logOff.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(logOff);
-                finish();
                 break;
 
             default:

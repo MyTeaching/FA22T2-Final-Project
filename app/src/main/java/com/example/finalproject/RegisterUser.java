@@ -81,23 +81,23 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         if(enterFullName.trim().equalsIgnoreCase("")){
             enterFullNameEditText.setError("This field is blank!");
 
-        //if user leaves email box empty the user will get a error
         }
 
+        //if user leaves email box empty the user will get a error
         if(enterEmail.trim().equalsIgnoreCase("")){
             enterEmailEditText.setError("This field is blank!");
 
-        //if user leaves password box empty the user will get a error
         }
 
+        //if user leaves password box empty the user will get a error
         if(enterPassword.trim().equalsIgnoreCase("")){
             enterPasswordEditText.setError("This field is blank!");
 
-        //this will make sure the email address is in proper format
+            //this will make sure the email address is in proper format
         } else if(!Patterns.EMAIL_ADDRESS.matcher(enterEmail).matches()){
             enterEmailEditText.setError("Invalid Email!");
 
-        //if user inputs password shorter than 8 characters than the user will get a error
+            //if user inputs password shorter than 8 characters than the user will get a error
         } else if(enterPassword.length() < 8 ) {
             enterPasswordEditText.setError("Password should be 8 characters minimum!");
 
@@ -116,9 +116,12 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
                 if(task.isSuccessful()){
                     FirebaseUser user = myAuth.getCurrentUser();
                     user.sendEmailVerification();
-                    Toast.makeText(RegisterUser.this, "You Registered!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterUser.this, "Email Verification Sent!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(RegisterUser.this, LogInUser.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
+                } else {
+                    Toast.makeText(RegisterUser.this, "Failed to Register!", Toast.LENGTH_SHORT).show();
                 }
             }
         });

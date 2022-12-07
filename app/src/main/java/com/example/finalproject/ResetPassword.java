@@ -45,25 +45,25 @@ public class ResetPassword extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View view) {
-        String enteringEmailReset = reset.getText().toString();
+        String EmailReset = reset.getText().toString();
 
-        //This will send an error if no email is entered
-        if(enteringEmailReset.trim().equalsIgnoreCase("")){
+            //This will send an error if no email is entered
+        if(EmailReset.trim().equalsIgnoreCase("")){
             reset.setError("Email is required!");
-        }
 
-        //This will check that the email is a properly structured
-        // Ex: rey129@gmail.com not weowqeii.com
-        if(!Patterns.EMAIL_ADDRESS.matcher(enteringEmailReset).matches()){
+            //This will check that the email is a properly structured
+            // Ex: rey129@gmail.com not weowqeii.com
+        } else if(!Patterns.EMAIL_ADDRESS.matcher(EmailReset).matches()){
             reset.setError("Invalid Email!");
         }
 
         //This will send a password reset link to the users email
-        myAuth.sendPasswordResetEmail(enteringEmailReset).addOnCompleteListener(new OnCompleteListener<Void>() {
+        myAuth.sendPasswordResetEmail(EmailReset).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){
                     Intent intent = new Intent(ResetPassword.this, LogInUser.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                     Toast.makeText(ResetPassword.this, "Email Sent!", Toast.LENGTH_SHORT).show();
                 }
