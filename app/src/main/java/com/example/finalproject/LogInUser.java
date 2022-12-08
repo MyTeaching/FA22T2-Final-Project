@@ -99,8 +99,6 @@ public class LogInUser extends AppCompatActivity implements View.OnClickListener
         enterEmailLogin = enterEmailEditText.getText().toString();
         enterPasswordLogin = enterPasswordEditText.getText().toString();
 
-        boolean enabled = true;
-
         //if the user leaves email box empty than they will get a error warning
         if(enterEmailLogin.trim().equalsIgnoreCase("")){
             enterEmailEditText.setError("Email is required!");
@@ -127,9 +125,7 @@ public class LogInUser extends AppCompatActivity implements View.OnClickListener
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
 
-                    //if the email and password from the user matches they will be logged in
                     if(task.isSuccessful()){
-                        //if the email is verified than the user will log in and be taken to main activity
                         FirebaseUser user = myAuth.getCurrentUser();
 
                         if(user.isEmailVerified()){
@@ -138,7 +134,6 @@ public class LogInUser extends AppCompatActivity implements View.OnClickListener
                             startActivity(intent);
 
                         } else {
-                            user.sendEmailVerification();
                             Toast.makeText(LogInUser.this, "Verify Email", Toast.LENGTH_SHORT).show();
                         }
                     } else{
