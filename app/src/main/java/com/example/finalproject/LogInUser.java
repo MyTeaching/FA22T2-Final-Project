@@ -137,7 +137,7 @@ public class LogInUser extends AppCompatActivity implements View.OnClickListener
                             Toast.makeText(LogInUser.this, "Verify Email", Toast.LENGTH_SHORT).show();
                         }
                     } else{
-                        Toast.makeText(LogInUser.this, "Logged In Failed.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LogInUser.this, "Log In Failed.", Toast.LENGTH_SHORT).show();
                     }
                 }
             });
